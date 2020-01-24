@@ -49,7 +49,7 @@ public class Acceuil extends JFrame implements ActionListener{
         
 		//Image du font :
 		try {
-            this.getContentPane().add(new JLabel(new ImageIcon(ImageIO.read(new File("image\\\\R2.png")))),BorderLayout.CENTER);
+            this.getContentPane().add(new JLabel(new ImageIcon(ImageIO.read(new File("image\\\\Agence.png")))),BorderLayout.CENTER);
         } catch (IOException e) {
             e.printStackTrace();
         }
